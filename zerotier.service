@@ -1,0 +1,12 @@
+[Unit]
+Description=Run ZeroTier Script at Boot
+After=network.target
+
+[Service]
+ExecStart=/path/to/your/zerotier.sh
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+User=pi  # Or your username
+
+[Install]
+WantedBy=multi-user.target
