@@ -6,6 +6,7 @@ sudo raspi-config \
 vcgencmd get_camera \
 sudo apt update \
 sudo apt upgrade \
+dtoverlay=IMX708 \
 sudo apt install libcamera-apps \
 
 $ sudo apt install motion -y \
