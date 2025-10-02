@@ -8,6 +8,7 @@ sudo apt update \
 sudo apt upgrade \
 dtoverlay=IMX708 \
 sudo apt install libcamera-apps \
+libcamera-hello 
 
 $ sudo apt install motion -y \
 $ sudo systemctl start motion \
