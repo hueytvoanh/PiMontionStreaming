@@ -1,6 +1,7 @@
 # PiMontionStreaming
 
-#Camera SetUp
+# Camera SetUp
+https://www.youtube.com/watch?v=8mv9n_ylGgc \
 sudo raspi-config \
 vcgencmd get_camera \
 sudo apt update \
